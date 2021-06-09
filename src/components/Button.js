@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 const Button = styled.button`
       
   ${props => props.shouldHover
-        ? '&:hover { background: yellow }'
+        ? '&:hover { border: 2px solid black }'
         : ''
     }
 

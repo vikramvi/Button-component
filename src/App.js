@@ -34,7 +34,7 @@ function App() {
           </div>
           <div>
             <pre>&:hover, &:focus</pre>
-            <Button buttonTheme="hoverFocusType1Button">Default</Button>
+            <Button buttonTheme="hoverFocusType1Button" shouldHover>Default</Button>
           </div>
           <div>
 
@@ -42,8 +42,8 @@ function App() {
             <Button buttonTheme="OutlineVariantButton">Default</Button>
           </div>
           <div>
-            <pre>&:hover, &:focus;</pre>
-            <Button buttonTheme="hoverFocusType2Button">Default</Button>
+            <pre>&:hover, &:focus</pre>
+            <Button buttonTheme="hoverFocusType2Button" shouldHover>Default</Button>
           </div>
           <div>
             <pre>&lt;Button variant=”text” /&gt;</pre>
